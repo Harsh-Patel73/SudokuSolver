@@ -11,11 +11,10 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import org.w3c.dom.Text;
 
 import java.util.*;
 
-public class HelloApplication extends Application implements EventHandler<ActionEvent> {
+public class SudokuSolver extends Application implements EventHandler<ActionEvent> {
     Button solve;
     Button remove;
     int j = 0;
